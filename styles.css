@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  
+}
+body {
+  background-color: #6465A3;
+  font-size: 18px;
+  color: #f3f3f3;
+}
+h1,p {
+  text-align: center;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: 400;
+  margin: 45px 0 0 0;
+  font-size: 32px;
+}
+p {
+  font-style: italic;
+  margin: 2px 0 30px 0;
+  font-weight: 200;
+  font-size: 18px;
+}
+form {
+  border-radius: 5px;
+  background-color: #272647;
+  /*margin: 0 200px 0 200px;*/
+  margin: 0 auto 0 auto;
+  width: 54%;
+  padding: 5px 0 0 0;  
+}
+fieldset {
+  /*margin: 50px;
+  width: 80%;
+  padding: 10px 12px 0 12px ;
+  border: none;*/
+  padding: 10px 12px 80px 12px ;
+  border: none;
+}
+.text-label,.input,select {
+  display: block;
+}
+.input, select,textarea {
+  /*height: px;*/
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+input[placeholder],#dropdown,textarea[placeholder] {
+  font-size: 16px;
+  padding: 6px 0 6px 13px;
+  font-family: "Poppins", sans-serif;
+}
+.text-label {
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+.container {
+  margin: 28px 0 0 0;
+  padding: 0px 30px 0 30px;
+
+}
+.input,select {
+  margin: 7px 0 0 0;
+}
+span {
+  font-size: 14.35px;
+}
+
+textarea {
+  margin: 7px 0 0 0;
+  height: 120px;
+  border-radius: unset;
+}
+.btn {
+  color: #f3f3f3;
+  background-color: #37af56;
+  font-size: 16px;
+  
+  padding: 10px;
+  border-radius: unset;
+  width: 100%;
+  
+}
